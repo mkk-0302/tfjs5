@@ -1,7 +1,5 @@
 
 tensorflowjs_converter \
-    --input_format=tf_saved_model \
-    --output_format=tfjs_graph_model \
-    /path/to/saved_model \
-    /path/to/output_folder
-
+  --input_format=keras \
+  model.h5 \
+  tfjs_model/
